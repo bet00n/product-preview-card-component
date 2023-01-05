@@ -5,6 +5,8 @@
     --veryDarkBlue: hsl(212, 21%, 14%);
     --darkGrayishBlue: hsl(228, 12%, 48%);
     --White: hsl(0, 0%, 100%);
+    --mainFontFamily: 'Montserrat', sans-serif;
+    --secondaryFontFamily: 'Fraunces', serif;
 }
 
 * {
@@ -19,7 +21,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    width: 100vw;
 }
 
 .card{
@@ -40,7 +41,7 @@ img{
 
 .description h1 {
     color: var(--darkGrayishBlue);
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--mainFontFamily);
     font-size: 0.8rem;
     letter-spacing: 0.4rem;
     font-weight: 400;
@@ -49,13 +50,13 @@ img{
 .description h2 {
     color: var(--veryDarkBlue);
     margin: 0.8rem auto;
-    font-family: 'Fraunces', serif;
+    font-family: var(--secondaryFontFamily);
     font-size: 2rem;
 }
 
 .description p {
     color: var(--darkGrayishBlue);
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--mainFontFamily);
     font-size: .9rem;
     line-height: 1.5rem;
     margin: 1rem auto;
@@ -71,18 +72,18 @@ img{
 
 .actual-price {
     color: var(--darkCyan);
-    font-family: 'Fraunces', serif;
+    font-family: var(--secondaryFontFamily);
     font-size: 2rem;
 }
 
 .crossed-price {
     color: var(--darkGrayishBlue);
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--mainFontFamily);
     text-decoration: line-through;
 }
 
 .description button {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--mainFontFamily);
     font-size: .8rem;
     font-weight: 600;
     border-radius: .5rem;
